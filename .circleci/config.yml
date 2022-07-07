@@ -7,43 +7,43 @@ jobs:
      - image: cimg/base:2022.05
     steps:
       - run: echo "Say hello to YAML!"
-      
+
   User_2:
     docker:
      - image: cimg/base:2022.05
     steps:
       - run: echo "Say hello to YAML!"
-      
+
   User_3:
     docker:
      - image: cimg/base:2022.05
     steps:
       - run: echo "Say hello to YAML!"
-  
+
   User_4:
     docker:
      - image: cimg/base:2022.05
     steps:
       - run: echo "Say hello to YAML!"
-      
+
   User_5:
     docker:
      - image: cimg/base:2022.05
     steps:
       - run: echo "Say hello to YAML!"
- 
+
   User_6:
     docker:
      - image: cimg/base:2022.05
     steps:
       - run: echo "Say hello to YAML!"
-  
+
   User_7:
     docker:
      - image: cimg/base:2022.05
     steps:
       - run: echo "Say hello to YAML!"
-      
+
   User_8:
     docker:
      - image: cimg/base:2022.05
@@ -55,13 +55,13 @@ jobs:
      - image: cimg/base:2022.05
     steps:
       - run: echo "Say hello to YAML!"
-      
+
   User_10:
     docker:
      - image: cimg/base:2022.05
     steps:
       - run: echo "Say hello to YAML!"
-      
+
   User_11:
     docker:
      - image: cimg/base:2022.05
@@ -368,43 +368,43 @@ workflows:
     # List of jobs that will run
     jobs:
       - User_1
-      
+
   workflow_2:
     jobs:
       - User_2
-      
+
   workflow_3:
     jobs:
       - User_3
-      
+
   workflow_4:
     jobs:
       - User_4
-            
+
   workflow_5:
     jobs:
       - User_5
-            
+
   workflow_6:
     jobs:
       - User_6
-            
+
   workflow_7:
     jobs:
       - User_7
-            
+
   workflow_8:
     jobs:
       - User_8
-            
+
   workflow_9:
     jobs:
       - User_9
-            
+
   workflow_10:
     jobs:
       - User_10
-            
+
   workflow_11:
     jobs:
       - User_11
